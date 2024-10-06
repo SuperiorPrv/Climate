@@ -8,7 +8,7 @@ const Header = () => {
   const [opened, { open, close }] = useDisclosure(false);
 
   return (
-    <div style={{ backgroundColor: "#EEEEEE" ,display:"flex",alignItems:"center",justifyContent:'space-between',padding:"12px 72px"}}>
+    <header className={styles.header}>
       <Text  fw={500} size="36px">Climate</Text><br /><br />
       <ul className={styles.nav}>
         <Link to="/"  style={pathname=="/"?{color:"black",fontSize:"24px",fontWeight:"600"}:{color:"black",textDecoration:"none",fontSize:"24px",fontWeight:"400"}}>
@@ -41,7 +41,7 @@ const Header = () => {
           </Link>
         </ul>
       </Drawer>
-    </div>
+    </header>
   );
 };
 
