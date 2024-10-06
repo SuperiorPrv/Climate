@@ -16,3 +16,12 @@
     padding: 30px;
     margin-bottom: 50px;
 }
+.section3_home{
+    background-image: url(https://s3-alpha-sig.figma.com/img/a62b/e2ae/5b89b7a47a53e51db54dcb6fd562fbe4?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SxuZNPZLcFJR-xcQPGl7tsFgTuzH6Hhp1keS9c2BE2JgVjC3Ywy~TaVg2LGCTwNU7PxUsMJ5QmrRk4dT-qTdVKIGrcftUXi3AVw-dTrm0urXilstqfdUYtvSsQX1NAWsXlc79YhK07nrfKATiPe0UTQvbiHw8mwt2p5Q6RHMI33q7fWbYlBHP4~WtlwWazMmPP6CN4Oc~OSHPWuVCgUnsQBl4h75rS473LQp9Zrvy9s~figIm4U9MZTqsDmZAG0rnNs3zuoh1dL-8~vtnzGcVkWz~OusAIvHdf886BBe9AroVIRTcZQVrtRrozbmujwkcvR4VvDYEG-ua0jpiM0N8A__);
+    background-size: cover;
+    background-position:  center;
+    text-align: center;
+    min-height: 513px;
+    padding: 30px;
+    margin-bottom: 50px;
+}

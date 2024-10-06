@@ -1,4 +1,4 @@
-import { Button, Text } from "@mantine/core";
+import { Button, Image, Text } from "@mantine/core";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -49,11 +49,14 @@ const Home = () => {
         <div
           className=""
           style={{
+            flexWrap: "wrap",
+            margin: "auto",
             display: "flex",
             gap: "40px",
             margin: "auto",
             maxWidth: "1100px",
             justifyContent: "space-between",
+            alignItems: "start"
           }}
         >
           <div
@@ -62,8 +65,9 @@ const Home = () => {
               textAlign: "center",
               backgroundColor: "#EEEEEE",
               maxWidth: "400px",
-              padding: "57px",
+              padding: "50px",
               borderRadius: "40px",
+              margin:"auto"
             }}
           >
             <Text size="32px" fw={600}>
@@ -106,8 +110,9 @@ const Home = () => {
               textAlign: "center",
               backgroundColor: "#EEEEEE",
               maxWidth: "400px",
-              padding: "57px",
+              padding: "50px",
               borderRadius: "40px",
+              margin:"auto"
             }}
           >
             <Text size="32px" fw={600}>
@@ -142,6 +147,34 @@ const Home = () => {
             >
               Get Started
             </Button>
+          </div>
+        </div>
+      </div>
+
+      {/* ////////////////// */}
+
+      {/* section 3 */}
+
+      <div className="section3_home">
+        <Text size="56px" color="white" fw={400}>
+          Why does it matter?
+        </Text><br /><br /><br />
+
+        <div className="" style={{display:"flex",backgroundColor:"#2244FF80",maxWidth:"1000px",margin:"auto",justifyContent:"space-between",padding:"15px"}}>
+          <div className="" style={{maxWidth:"422px",textAlign:"start",color:"#FFFFFF"}}>
+            <Text size="26px" fw={400} sty>
+              Understanding climate is essential for our survival and
+              well-being. As the planet warms, we face unprecedented challenges,
+              from rising sea levels and extreme weather events to food and
+              water scarcity. These changes impact not only the environment but
+              also human health, economies, and social stability
+            </Text>
+          </div>
+          <div className="">
+            <Image
+              radius="md"
+              src="/src/pages/home/img/image 1.png"
+            />
           </div>
         </div>
       </div>
