@@ -56,7 +56,7 @@ const Home = () => {
             margin: "auto",
             maxWidth: "1100px",
             justifyContent: "space-between",
-            alignItems: "start"
+            alignItems: "start",
           }}
         >
           <div
@@ -65,9 +65,10 @@ const Home = () => {
               textAlign: "center",
               backgroundColor: "#EEEEEE",
               maxWidth: "400px",
-              padding: "50px",
+              padding: "20px",
               borderRadius: "40px",
-              margin:"auto"
+              margin: "auto",
+              minHeight:"420px"
             }}
           >
             <Text size="32px" fw={600}>
@@ -110,9 +111,11 @@ const Home = () => {
               textAlign: "center",
               backgroundColor: "#EEEEEE",
               maxWidth: "400px",
-              padding: "50px",
+              padding: "20px",
               borderRadius: "40px",
-              margin:"auto"
+              margin: "auto",
+              minHeight:"420px"
+
             }}
           >
             <Text size="32px" fw={600}>
@@ -158,10 +161,28 @@ const Home = () => {
       <div className="section3_home">
         <Text size="56px" color="white" fw={400}>
           Why does it matter?
-        </Text><br /><br /><br />
+        </Text>
+        <br />
+        <br />
+        <br />
 
-        <div className="" style={{display:"flex",backgroundColor:"#2244FF80",maxWidth:"1000px",margin:"auto",justifyContent:"space-between",padding:"15px"}}>
-          <div className="" style={{maxWidth:"422px",textAlign:"start",color:"#FFFFFF"}}>
+        <div
+          className=""
+          style={{
+            display: "flex",
+            flexWrap:"wrap",
+            gap:"40px",
+            backgroundColor: "#2244FF80",
+            maxWidth: "1000px",
+            margin: "auto",
+            justifyContent: "space-between",
+            padding: "15px",
+          }}
+        >
+          <div
+            className=""
+            style={{ maxWidth: "422px", textAlign: "start", color: "#FFFFFF",margin:"auto" }}
+          >
             <Text size="26px" fw={400} sty>
               Understanding climate is essential for our survival and
               well-being. As the planet warms, we face unprecedented challenges,
@@ -170,11 +191,8 @@ const Home = () => {
               also human health, economies, and social stability
             </Text>
           </div>
-          <div className="">
-            <Image
-              radius="md"
-              src="/src/pages/home/img/image 1.png"
-            />
+          <div className="" style={{margin:"auto"}}>
+            <Image radius="md" src="/src/pages/home/img/image 1.png" />
           </div>
         </div>
       </div>
