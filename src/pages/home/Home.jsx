@@ -1,5 +1,6 @@
 import { Button, Image, Text } from "@mantine/core";
 import { useNavigate } from "react-router-dom";
+import img from "./images/image 1.png";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -183,7 +184,7 @@ const Home = () => {
             className=""
             style={{ maxWidth: "422px", textAlign: "start", color: "#FFFFFF",margin:"auto" }}
           >
-            <Text size="26px" fw={400} sty>
+            <Text size="26px" fw={400}>
               Understanding climate is essential for our survival and
               well-being. As the planet warms, we face unprecedented challenges,
               from rising sea levels and extreme weather events to food and
@@ -192,7 +193,7 @@ const Home = () => {
             </Text>
           </div>
           <div className="" style={{margin:"auto"}}>
-            <Image radius="md" src="/src/pages/home/img/image 1.png" />
+            <Image radius="md" src={img} />
           </div>
         </div>
       </div>
