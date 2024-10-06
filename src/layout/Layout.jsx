@@ -4,7 +4,7 @@ import Footer from "../components/shared/footer/Footer"
 
 const Layout = () => {
   return (
-    <div style={{maxWidth:"1920px"}}>
+    <div style={{maxWidth:"1920px",margin:"auto"}}>
         <Header/>
         <Outlet/>
         <Footer/>
