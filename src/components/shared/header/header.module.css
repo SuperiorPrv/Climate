@@ -1,3 +1,10 @@
+.header{ 
+    background-color: #EEEEEE;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 72px
+}
 .nav{
     list-style: none;
     display: flex;
@@ -12,5 +19,10 @@
     }
     .burger{
         display: block;
+    }
+}
+@media (max-width:450px) {
+    .header{
+        padding: 12px 40px;
     }
 }
