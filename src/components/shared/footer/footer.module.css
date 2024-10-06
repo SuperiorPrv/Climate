@@ -1,0 +1,30 @@
+.footer{ 
+    background-color: #EEEEEE;
+    padding:12px 72px
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+.burger{
+    display: none;
+}
+@media (max-width:775px) {
+    .nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+}
+@media (max-width:450px) {
+    .footer{
+        padding: 12px 40px;
+    }
+}

@@ -10,7 +10,7 @@ const Home = () => {
         <br />
         <br />
         <br />
-        <Text size="56px" style={{ maxWidth: "907px", margin: "auto" }}>
+        <Text size="56px" style={{ maxWidth: "950px", margin: "auto", fontWeight:"500" }}>
           Welcome to the website dedicated to{" "}
           <span style={{ color: "#0000DD" }}>climate</span> and its impact on
           our planet!
@@ -23,6 +23,7 @@ const Home = () => {
             margin: "auto",
             fontSize: "32px",
             color: "#333333",
+            fontWeight: "500"
           }}
         >
           Climate is more than just the weather. {"It's"} a complex system that
@@ -92,7 +93,8 @@ const Home = () => {
                 width: "250px",
                 fontSize: "25px",
                 height: "60px",
-                borderRadius: "20px",
+                borderRadius: "13px",
+                margin:"auto"
               }}
               variant="gradient"
               gradient={{ from: "rgba(14, 109, 204, 1)", to: "blue", deg: 90 }}
@@ -139,7 +141,8 @@ const Home = () => {
                 width: "250px",
                 fontSize: "25px",
                 height: "60px",
-                borderRadius: "20px",
+                borderRadius: "13px",
+                margin: "auto"
               }}
               variant="gradient"
               gradient={{ from: "rgba(14, 109, 204, 1)", to: "blue", deg: 90 }}
