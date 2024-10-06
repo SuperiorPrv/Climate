@@ -25,7 +25,7 @@ const Home = () => {
             color: "#333333",
           }}
         >
-          Climate is more than just the weather. It's a complex system that
+          Climate is more than just the weather. {"It's"} a complex system that
           shapes life on Earth. It affects every living thing, every natural
           phenomenon, and even our daily lives. Understanding the climate and
           its changes is the key to understanding the future of our world.
@@ -53,7 +53,6 @@ const Home = () => {
             margin: "auto",
             display: "flex",
             gap: "40px",
-            margin: "auto",
             maxWidth: "1100px",
             justifyContent: "space-between",
             alignItems: "start",
@@ -83,9 +82,7 @@ const Home = () => {
                 fw={400}
                 style={{ lineHeight: "35px" }}
               >
-                Dive into the fascinating world of climate science and discover
-                how Earth's climate shapes everything from weather to
-                ecosystems.
+                {"Dive into the fascinating world of climate science and discover how Earth's climate shapes everything from weather to ecosystems."}
               </Text>
               <br />
               <br />
